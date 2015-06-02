@@ -169,6 +169,15 @@ switch (_code) do
 		
 		if(!_alt && !_ctrlKey) then { [] call life_fnc_radar; };
 	};
+//Shift+P = Faded Sound
+case 25:
+{
+    if(_shift) then
+    {
+        [] call life_fnc_fadeSound;
+        _handled = true;
+    };
+};
 	//Y Player Menu
 	case 21:
 	{

@@ -28,6 +28,7 @@ life_respawn_timer = 7; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
+life_fadeSound = false;
 life_removeWanted = false;
 
 //Persistent Saving
