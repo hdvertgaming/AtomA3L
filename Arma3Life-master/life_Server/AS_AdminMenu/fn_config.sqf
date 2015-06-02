@@ -45,10 +45,6 @@ AS_Actions =
 			"Spawn Vehicle",
 			"===================================================",
 			"Spectator Mode",
-			"Add $100.000",
-			"Add $1.000.000",
-			"Add $100.000.000",
-			"Refund",
 			"REFRESH"
 		]
 	]
