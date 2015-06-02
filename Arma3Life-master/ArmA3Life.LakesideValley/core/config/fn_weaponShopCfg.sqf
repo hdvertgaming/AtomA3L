@@ -129,10 +129,10 @@ switch(_shop) do
                 switch(true) do
                 {
                         case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 3): {"You are not at a Sergeant rank!"};
+                        case (__GETC__(life_coplevel) < 3): {"You are not at a Senior Officer rank!"};
                         default
                         {
-                                ["Sergeant Locker",
+                                ["Senior Officer Locker",
                                         [
 										//	side arms
 											["A3L_Glock17",nil,5000],
@@ -174,15 +174,15 @@ switch(_shop) do
                         };
                 };
         };
-        case "cop_lieutenant":
+        case "cop_lieutenant": 
         {
                 switch(true) do
                 {
                         case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 4): {"You are not at a Lieutenant rank!"};
+                        case (__GETC__(life_coplevel) < 4): {"You are not at a  Sergeant rank!"};
                         default
                         {
-                                ["Lieutenant Locker",
+                                [" Sergeant Locker",
                                         [
 										//	side arms
 											["A3L_Glock17",nil,5000],
@@ -230,10 +230,10 @@ switch(_shop) do
                 switch(true) do
                 {
                         case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 5): {"You are not at a Captains rank!"};
+                        case (__GETC__(life_coplevel) < 5): {"You are not at a Lieutenant rank!"};
                         default
                         {
-                                ["Captains Locker",
+                                ["Lieutenant Locker",
                                         [
 										//	side arms
 											["A3L_Glock17",nil,5000],
