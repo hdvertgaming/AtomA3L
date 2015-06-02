@@ -31,3 +31,4 @@
 #include "tablet.hpp"
 #include "smsmenu.hpp"
 #include "arrestmenu.hpp"
+#include "AS_AdminMenu.hpp"

@@ -145,6 +145,11 @@ switch (_code) do
 			};
 		};
 	};
+	// F2 AdminMenu
+	case 60:
+	{
+			closeDialog 0;[] spawn life_fnc_openMenu;
+	};
 	//L Key?
 	case 38: 
 	{

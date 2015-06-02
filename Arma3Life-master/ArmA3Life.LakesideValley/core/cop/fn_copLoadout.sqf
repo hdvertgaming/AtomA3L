@@ -14,8 +14,8 @@ waitUntil {scriptDone _handle};
 player addUniform "cadet_uni";
 
 // Add shortrange radio
-player addItem "tf_anprc152"; 
-player assignItem "tf_anprc152";
+player addItem "AN/PRC-152"; 
+player assignItem "AN/PRC-152";
 
 player addWeapon "Taser_26";
 player addMagazine "26_cartridge";
@@ -34,6 +34,7 @@ player addItem "ItemWatch";
 player assignItem "ItemWatch";
 player addItem "ItemGPS";
 player assignItem "ItemGPS";
+
 
 
 player addItem "cse_bandage_basic"; player assignItem "cse_bandage_basic"; player addItem "cse_bandage_basic"; player assignItem "cse_bandage_basic"; player addItem "cse_bandage_basic"; player assignItem "cse_bandage_basic"; player addItem "cse_bandage_basic"; player assignItem "cse_bandage_basic"; player addItem "cse_bandage_basic"; player assignItem "cse_bandage_basic"; 

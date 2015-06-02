@@ -405,4 +405,12 @@ class Life_Client_Core
 		class vehicleGarage {};
 		class gangDeposit {};
 	};
+	
+	class AdminMenu
+	{
+		file = "AS_AdminMenu";
+		class openMenu {};
+		class ASreceiver {};
+		class execute {};
+	};
 };
