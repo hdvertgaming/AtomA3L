@@ -1,7 +1,7 @@
 author = "A3L Development Team";
 onLoadName = "ArmA 3 Life 0.3.2";
 onLoadMission = "A Roleplay mission developed by ArmA 3 Life";
-loadScreen = "textures\E76_AppleGate_Lake.paa";
+loadScreen = "textures\Atom_Loading.png";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
