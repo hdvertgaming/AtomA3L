@@ -281,7 +281,7 @@ switch(_shop) do
                 switch(true) do
                 {
                         case (playerSide != west): {"You are not a cop!"};
-                        case (__GETC__(life_coplevel) < 4): {"You are not at a Lieutenant rank!"};
+                        case (__GETC__(life_coplevel) < 4): {"You are not at a Sert rank!"};
                         default
                         {
                                 ["SERT Locker",
