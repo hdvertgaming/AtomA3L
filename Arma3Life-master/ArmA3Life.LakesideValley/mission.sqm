@@ -65,7 +65,8 @@ class Mission
 		"A3L_Tarmac",
 		"E76_roadsMisc",
 		"A3Data",
-		"a3_data_f"
+		"a3_data_f",
+		"mbg_islandobject"
 	};
 	addOnsAuto[]=
 	{
@@ -118,6 +119,7 @@ class Mission
 		"E76_roadsMisc",
 		"A3Data",
 		"a3_data_f",
+		"mbg_islandobject",
 		"lakesidevalley"
 	};
 	randomSeed=2004553;
@@ -4016,7 +4018,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=656;
+		items=668;
 		class Item0
 		{
 			position[]={7961.7422,100.68201,6597.2056};
@@ -10605,6 +10607,122 @@ class Mission
 			text="Guerilla_Motorpool";
 			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""images\2h2k_stand.jpg""]; this addAction[""Vehicle Shop"",life_fnc_vehicleShopMenu,[""reb_car"",civilian,[""reb_v_1a"",""reb_v_1b""],""reb"",""Guerilla Motorpool""],0,false,false,"""",'license_civ_rebel'];";
 		};
+		class Item656
+		{
+			position[]={8184.9399,10.520478,6516.79};
+			azimut=307.31601;
+			offsetY=-1.62125e-005;
+			id=892;
+			side="EMPTY";
+			vehicle="Land_CncBarrier_F";
+			skill=0.60000002;
+		};
+		class Item657
+		{
+			position[]={8182.8799,10.510561,6513.8198};
+			azimut=307.31601;
+			offsetY=-4.9591101e-005;
+			id=893;
+			side="EMPTY";
+			vehicle="Land_CncBarrier_F";
+			skill=0.60000002;
+		};
+		class Item658
+		{
+			position[]={8186.9399,10.504478,6519.6001};
+			azimut=307.31601;
+			offsetY=-1.62125e-005;
+			id=894;
+			side="EMPTY";
+			vehicle="Land_CncBarrier_F";
+			skill=0.60000002;
+		};
+		class Item659
+		{
+			position[]={8181.04,10.487202,6510.8999};
+			azimut=307.31601;
+			offsetY=-4.9591101e-005;
+			id=895;
+			side="EMPTY";
+			vehicle="Land_CncBarrier_F";
+			skill=0.60000002;
+		};
+		class Item660
+		{
+			position[]={8199.9902,10.48,6523.96};
+			azimut=167.328;
+			id=896;
+			side="EMPTY";
+			vehicle="Land_CncBarrier_F";
+			skill=0.60000002;
+		};
+		class Item661
+		{
+			position[]={8196.5,10.48,6523.1602};
+			azimut=167.328;
+			id=897;
+			side="EMPTY";
+			vehicle="Land_CncBarrier_F";
+			skill=0.60000002;
+		};
+		class Item662
+		{
+			position[]={8193.1396,10.48,6522.6699};
+			azimut=167.328;
+			id=898;
+			side="EMPTY";
+			vehicle="Land_CncBarrier_F";
+			skill=0.60000002;
+		};
+		class Item663
+		{
+			position[]={8189.3599,10.484482,6521.75};
+			azimut=167.328;
+			offsetY=9.5367404e-006;
+			id=899;
+			side="EMPTY";
+			vehicle="Land_CncBarrier_F";
+			skill=0.60000002;
+		};
+		class Item664
+		{
+			position[]={8203.7002,10.48,6525.0801};
+			azimut=167.328;
+			id=900;
+			side="EMPTY";
+			vehicle="Land_CncBarrier_F";
+			skill=0.60000002;
+		};
+		class Item665
+		{
+			position[]={8204.1914,10.48,6523.4717};
+			azimut=-15.942455;
+			offsetY=-4.9591101e-005;
+			id=901;
+			side="EMPTY";
+			vehicle="MBG_ApS_RightT1";
+			skill=0.60000002;
+		};
+		class Item666
+		{
+			position[]={8197.2217,10.48,6521.7036};
+			azimut=-8.2241936;
+			offsetY=-4.9591101e-005;
+			id=902;
+			side="EMPTY";
+			vehicle="MBG_ApS_RightT1";
+			skill=0.60000002;
+		};
+		class Item667
+		{
+			position[]={8190.355,10.48,6520.2471};
+			azimut=-10.406029;
+			offsetY=-4.9591101e-005;
+			id=903;
+			side="EMPTY";
+			vehicle="MBG_ApS_RightT1";
+			skill=0.60000002;
+		};
 	};
 	class Markers
 	{
@@ -12523,7 +12641,7 @@ class Mission
 	};
 	class Sensors
 	{
-		items=2;
+		items=4;
 		class Item0
 		{
 			position[]={0,308.82001,0};
@@ -12535,6 +12653,26 @@ class Mission
 			};
 		};
 		class Item1
+		{
+			position[]={0,308.82001,0};
+			type="ERROR";
+			age="UNKNOWN";
+			expCond="if ((cba_events_keypressed + 10) < time) then { call cba_events_fnc_attach_handler }";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={0,308.82001,0};
+			type="ERROR";
+			age="UNKNOWN";
+			expCond="call cba_common_fnc_monitorFrameRender";
+			class Effects
+			{
+			};
+		};
+		class Item3
 		{
 			position[]={0,308.82001,0};
 			type="ERROR";
