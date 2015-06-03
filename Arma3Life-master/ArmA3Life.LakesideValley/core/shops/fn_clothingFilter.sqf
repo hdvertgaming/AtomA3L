@@ -32,13 +32,16 @@ lbClear _list;
 //Temp code, subjected to become one master config in future
 _clothes = switch (life_clothing_store) do
 {
-	case "ems": {[_selection] call life_fnc_clothing_ems;};
 	case "bruce": {[_selection] call life_fnc_clothing_bruce;};
-	case "brucecop": {[_selection] call life_fnc_clothing_bruce;};
 	case "cop": {[_selection] call life_fnc_clothing_cop;};
+	case "swat": {[_selection] call life_fnc_clothing_swat;};
+	case "sert": {[_selection] call life_fnc_clothing_sert;};
 	case "reb": {[_selection] call life_fnc_clothing_reb;};
 	case "dive": {[_selection] call life_fnc_clothing_dive;};
 	case "kart": {[_selection] call life_fnc_clothing_kart;};
+	case "donator": {[_selection] call life_fnc_clothing_donator;};
+	case "ems": {[_selection] call life_fnc_clothing_ems;};
+	case "grave": {[_selection] call life_fnc_clothing_grave;};
 };
 
 if(count _clothes == 0) exitWith {};

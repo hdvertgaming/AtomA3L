@@ -10,7 +10,7 @@ _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
 //Shop Title Name
-ctrlSetText[3103,"Mohammed's Jihadi Shop"];
+ctrlSetText[3103,"Rebel Shop"];
 
 switch (_filter) do
 {
@@ -18,13 +18,34 @@ switch (_filter) do
 	case 0:
 	{
 		[
+
+			["I_FEM_AAF_long","Female Long",5000],
+			["O_FEM_CSAT_Long","Female Long 2",5000],
+			["B_FEM_AAF_Rolled","Female Rolled",5000],
+			["O_FEM_CSAT_Rolled","Female Rolled 2",5000],
+			["B_FEM_NATO_Rolled","Female Rolled 3",5000],
+
 			["U_IG_Guerilla1_1",nil,5000],
 			["U_I_G_Story_Protagonist_F",nil,7500],
 			["U_I_G_resistanceLeader_F",nil,11500],
 			["U_O_SpecopsUniform_ocamo",nil,17500],
 			["U_O_PilotCoveralls",nil,15610],
 			["U_IG_leader","Guerilla Leader",15340],
-			["U_O_GhillieSuit",nil,50000]
+			["U_O_GhillieSuit",nil,70000],
+
+			//TRYK
+			["TRYK_B_USMC_R_ROLL","Green Top, MARPAT Pants",25000],
+			["TRYK_U_B_NATO_OCP_BLK_R_CombatUniform","Black Top, ACU Pants",25000],
+			["TRYK_U_B_AOR2_GRY_CombatUniform","Grey Top, DigiGreen Pants",25000],
+			["TRYK_U_B_AOR2_OD_CombatUniform","Green Top, DigiGreen Pants",30000],
+			["TRYK_U_B_AOR2_BLK_CombatUniform","Black Top, DigiGreen Pants",30000],
+			["TRYK_DMARPAT_T","Brown Top, DigiTan Pants",25000],
+			["TRYK_U_B_ARO1_BLK_CombatUniform","Black Top, DigiTan Pants",25000],
+			["TRYK_U_B_ARO1_CombatUniform","DigiTan Full",40000],
+			["TRYK_U_B_NATO_OCP_R_CombatUniform","DigiGreen Full",40000],
+			["TRYK_U_B_MARPAT_Wood","MARPAT Full",40000],
+			["TRYK_U_B_NATO_OCP_R_CombatUniform","OCP Full",40000]
+
 		];
 	};
 	
@@ -34,10 +55,23 @@ switch (_filter) do
 		[
 			["H_ShemagOpen_tan",nil,850],
 			["H_Shemag_olive",nil,850],
+			["TRYK_H_Booniehat_AOR2",nil,1050],
+			["TRYK_H_Booniehat_MARPAT_WOOD",nil,1050],
+			["TRYK_H_Booniehat_AOR1",nil,1050],
+			["TRYK_H_Booniehat_JSDF",nil,1050],
 			["H_ShemagOpen_khk",nil,800],
-			["H_HelmetO_ocamo",nil,2500],
+			["H_HelmetO_ocamo",nil,15000],
+			["TRYK_H_Helmet_MARPAT_Wood",nil,20000],
+			["TRYK_H_Helmet_MARPAT_Desert",nil,20000],
+			["TRYK_H_Helmet_3C",nil,20000],
 			["H_MilCap_oucamo",nil,1200],
-			["H_Bandanna_camo",nil,650]
+			["H_Bandanna_camo",nil,650],
+			["jokermask","Joker Mask",25000],
+			["TRYK_Kio_Balaclava","Ghost Balaclava",15000],
+			["A3L_Halloween_JigSaw","JigSaw Mask",15000],
+			["kio_skl_msk","Black Skull Mask",32000],
+			["kio_skl_msk_grn","Green Skull Mask",32000],
+			["kio_skl_msk_red","Red Skull Mask",32000]
 		];
 	};
 	
@@ -57,7 +91,9 @@ switch (_filter) do
 			["G_Balaclava_blk",nil,1337],
 			["G_Balaclava_combat",nil,1337],
 			["G_Balaclava_lowprofile",nil,1337],
-			["A3L_Balaclava",nil,1337]
+			["A3L_Balaclava",nil,1337],
+			["TRYK_Shemagh","Tan Scarf",1337],
+			["TRYK_Shemagh_G","Green Scarf",1337]
 		];
 	};
 	
@@ -65,9 +101,15 @@ switch (_filter) do
 	case 3:
 	{
 		[
-			["V_TacVest_khk",nil,12500],
+			["V_TacVest_khk",nil,18700],
+			["V_TacVest_oli",nil,18700],
+			["V_TacVest_brn",nil,18700],
 			["V_BandollierB_cbr",nil,4500],
-			["V_HarnessO_brn",nil,7500]
+			["V_BandollierB_rgr",nil,4500],
+			["V_BandollierB_khk",nil,4500],
+			["V_BandollierB_oli",nil,4500],
+			["V_HarnessO_brn",nil,7800],
+			["V_HarnessO_gry",nil,7800]
 		];
 	};
 	
@@ -76,13 +118,22 @@ switch (_filter) do
 	{
 		[
 			["B_AssaultPack_cbr",nil,2500],
-			["B_Kitbag_mcamo",nil,4500],
-			["B_TacticalPack_oli",nil,3500],
 			["B_FieldPack_ocamo",nil,3000],
-			["B_Bergen_sgg",nil,4500],
-			["B_Kitbag_cbr",nil,4500],
-			["B_Carryall_oli",nil,5000],
-			["B_Carryall_khk",nil,5000]
+			["B_TacticalPack_oli","Olive Bergen",3500],
+			["B_Bergen_sgg","Sage Bergen",4500],
+			["B_Carryall_oli","Olive Carryall",5000],
+			["B_Carryall_khk","Khaki Carryall",5000],
+			//Camo Packs
+			["B_AssaultPack_mcamo","MTP Assault Pack",4000],
+			["TRYK_B_AssaultPack_MARPAT_Wood","MARPAT Assault Pack",5500],
+			["TRYK_B_AssaultPack_Type2camo","Jungle Assault Pack",5500],
+			["TRYK_B_Kitbag_Base_JSDF","Jungle Kitbag",5500],
+			["B_Kitbag_mcamo","MTP Kitbag",5500],
+			//Belts
+			["TRYK_B_Belt_AOR2",nil,3000],
+			["TRYK_B_Belt_CYT",nil,3000],
+			["TRYK_B_Belt_GR",nil,3000]
+
 		];
 	};
 };

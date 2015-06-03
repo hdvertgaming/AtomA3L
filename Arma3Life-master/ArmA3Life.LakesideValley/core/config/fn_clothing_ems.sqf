@@ -1,16 +1,16 @@
 /*
-	File: fn_clothing_bruce.sqf
+	File: fn_clothing_ems.sqf
 	Author: Bryan "Tonic" Boardwine
 	
 	Description:
-	Master configuration file for Bruce's Outback Outfits.
+	Master configuration file for Reb shop.
 */
 private["_filter"];
 _filter = [_this,0,0,[0]] call BIS_fnc_param;
 //Classname, Custom Display name (use nil for Cfg->DisplayName, price
 
 //Shop Title Name
-ctrlSetText[3103,"EMS Clothing Shop"];
+ctrlSetText[3103,"EMS Shop"];
 
 switch (_filter) do
 {
@@ -18,17 +18,15 @@ switch (_filter) do
 	case 0:
 	{
 		[
-		
-			["EMTRM_uni", nil, 50],
-			["A3L_EMT1", nil, 50],
-			["A3L_EMT2", nil, 50],
-			["fire_uni2", nil, 50],
-			["fire_uni1", nil, 50],
-			["emsoff_uni", nil, 50],
-			["emt_Uni1", nil, 50],
-			["emt_Uni3", nil, 50],
-			["U_B_Wetsuit", nil, 50]
-		
+			["EMTRM_uni","EMT Medic Uniform 3",5000],
+			["emt_Uni1","EMT Medic Uniform 4",5000],
+			["emt_Uni3","EMT Medic Uniform 5",5000],
+			["emsoff_uni","EMS Off Duty",5000],
+			["A3L_Worker_Outfit","Worker Uniform",5000],
+			["fire_uni1","Fire Uniform 1",5000],
+			["fire_uni2","Fire Uniform 2",5000],
+			["fireoff_uni","Fire Off Duty",5000],
+			["U_B_Wetsuit", nil, 5000]
 		];
 	};
 	
@@ -36,12 +34,12 @@ switch (_filter) do
 	case 1:
 	{
 		[
-			["firehat", nil, 20],
-			["A3L_medic_helmet", nil, 20],
-			["H_MilCap_blue", nil, 20],
-			["H_CrewHelmetHeli_B", nil, 20],
-			["H_Cap_blu", nil, 20],
-			["H_Cap_red", nil, 20]
+			["A3L_firedeptmask","Fire Rescue Mask",850],
+			["A3L_medic_helmet","EMS Helmet",850],
+			["a3l_hardhat","Hard Hat",850],
+			["H_MilCap_blue", nil,750],
+			["H_Cap_blu", nil,750],
+			["H_Cap_red", nil,750]
 		];
 	};
 	
@@ -49,7 +47,7 @@ switch (_filter) do
 	case 2:
 	{
 		[
-			["G_Bandanna_aviator", nil, 20]
+			["G_Bandanna_aviator", nil,200]
 		];
 	};
 	
@@ -57,9 +55,9 @@ switch (_filter) do
 	case 3:
 	{
 		[
-			["V_TacVestIR_blk",nil,300],
-			["V_TacVest_blk",nil,300],
-			["V_RebreatherB",nil,300]
+			["V_TacVestIR_blk",nil,1300],
+			["V_TacVest_blk",nil,1300],
+			["V_RebreatherB",nil,2300]
 		];
 	};
 	
@@ -67,9 +65,9 @@ switch (_filter) do
 	case 4:
 	{
 		[
-			["B_FieldPack_ocamo",nil,300],
-			["B_Carryall_oucamo",nil,300],
-			["B_TacticalPack_blk",nil,300]
+			["B_FieldPack_ocamo",nil,3000],
+			["B_Carryall_oucamo",nil,3000],
+			["B_TacticalPack_blk",nil,3000]
 		];
 	};
 };

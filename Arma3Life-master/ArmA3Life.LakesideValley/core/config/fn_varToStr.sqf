@@ -14,11 +14,15 @@ switch (_var) do
 {
 	//Virtual Inventory Items
 	case "life_inv_oilu": {(localize "STR_Item_OilU")};
+	case "life_inv_wine": {"Wine"};
+	case "life_inv_beer": {"Beer"};
+	case "life_inv_RoadBarrier": {"RoadBarrier"};
 	case "life_inv_oilp": {(localize "STR_Item_OilP")};
 	case "life_inv_heroinu": {(localize "STR_Item_HeroinU")};
 	case "life_inv_heroinp": {(localize "STR_Item_HeroinP")};
 	case "life_inv_marijuana": {(localize "STR_Item_Marijuana")};
 	case "life_inv_apple": {(localize "STR_Item_Apple")};
+	case "life_inv_burgers": {(localize "STR_Item_Burgers")};
 	case "life_inv_rabbit": {(localize "STR_Item_RabbitMeat")};
 	case "life_inv_salema": {(localize "STR_Item_SalemaMeat")};
 	case "life_inv_ornate": {(localize "STR_Item_OrnateMeat")};
@@ -28,8 +32,17 @@ switch (_var) do
 	case "life_inv_catshark": {(localize "STR_Item_CatSharkMeat")};
 	case "life_inv_turtle": {(localize "STR_Item_TurtleMeat")};
 	case "life_inv_fishingpoles": {(localize "STR_Item_FishingPole")};
+	case "life_inv_zipties": {(localize "STR_Item_zipties")};
 	case "life_inv_water": {(localize "STR_Item_WaterBottle")};
 	case "life_inv_coffee": {(localize "STR_Item_Coffee")};
+
+	case "life_inv_FizzyCola": {"Fizzy Cola"};
+	case "life_inv_Milk": {"Milk"};
+	case "life_inv_Milkshake": {"Milkshake"};
+	case "life_inv_GreenTea": {"Green Tea"};
+	case "life_inv_IceTea": {"Ice Tea"};
+	case "life_inv_Tea": {"Tea"};
+
 	case "life_inv_turtlesoup": {(localize "STR_Item_TurtleSoup")};
 	case "life_inv_donuts": {(localize "STR_Item_Donuts")};
 	case "life_inv_fuelE": {(localize "STR_Item_FuelE")};
@@ -78,22 +91,9 @@ switch (_var) do
 	case "life_inv_opiumseeds": {(localize "STR_Item_opiumseeds")};
 	case "life_inv_cannabisseeds": {(localize "STR_Item_cannabisseeds")};
 	case "life_inv_pumpkinseeds": {(localize "STR_Item_Pumpkinseeds")};
-	case "life_inv_rawgoatmeat": {(localize "STR_Item_rawgoatmeat")};
-	case "life_inv_rawchicken": {(localize "STR_Item_rawchicken")};
-	case "life_inv_rawsheepmeat": {(localize "STR_Item_rawsheepmeat")};
-	case "life_inv_rawrabbit": {(localize "STR_Item_rawrabbit")};
-	//Additions
-	case "life_inv_zoobeer": {"Zoo Beer"}; 
-	case "life_inv_RoadConeStripB": {"Blinking RoadCone Strip"};
-	case "life_inv_RoadConeB": {"Blinking RoadCone"};
-	case "life_inv_RoadConeStrip": {"RoadCone Strip"};
-	case "life_inv_RoadCone": {"RoadCone"};
-	case "life_inv_RoadBlockWood": {"RoadBlock (Wooden)"};
-	case "life_inv_RoadBlockConc": {"RoadBlock (Fortified)"};
-	case "life_inv_RoadBlockRebel": {"RoadBlock (Wreck)"};
-	case "life_inv_BarGate": {"Police BarGate"};
+	case "life_inv_jack": {"Jack Daniels Whiskey"};
+	case "life_inv_speedbomb": {"Speed Bomb"};
 	case "life_inv_cigarette": {"Cigarette"};
-	case "life_inv_raxsrum": {"Rax's Rum"};
 
 	//License Block
 	
@@ -119,6 +119,5 @@ switch (_var) do
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
-	
-	case "license_civ_rifle": {"Rifle License"};
+	case "license_civ_donator": {("Donator License")};
 };

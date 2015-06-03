@@ -23,7 +23,17 @@ switch (_mode) do
 			case "marijuana": {"life_inv_marijuana"};
 			case "apple": {"life_inv_apple"};
 			case "apple seeds": {"life_inv_appleseeds"};
+			case "zipties": {"life_inv_zipties"};
+			case "burgers": {"life_inv_burgers"};
 			case "water": {"life_inv_water"};
+
+			case "FizzyCola": {"life_inv_FizzyCola"};
+			case "Milk": {"life_inv_Milk"};
+			case "Milkshake": {"life_inv_Milkshake"};
+			case "GreenTea": {"life_inv_GreenTea"};
+			case "IceTea": {"life_inv_IceTea"};
+			case "Tea": {"life_inv_Tea"};
+			
 			case "rabbit": {"life_inv_rabbit"};
 			case "salema": {"life_inv_salema"};
 			case "ornate": {"life_inv_ornate"};
@@ -83,21 +93,11 @@ switch (_mode) do
 			case "opium seed": {"life_inv_opiumseeds"};
 			case "cannabis seed": {"life_inv_cannabisseeds"};
 			case "pumpkin seed": {"life_inv_pumpkinseeds"};
-			case "raw goat meat": {"life_inv_rawgoatmeat"};
-			case "raw chicken": {"life_inv_rawchicken"};
-			case "raw sheep meat": {"life_inv_rawsheepmeat"};
-			case "raw rabbit": {"life_inv_rawrabbit"};
+			case "beer": {"life_inv_beer"};
+			case "wine": {"life_inv_wine"};
+			case "jack": {"life_inv_jack"};
+			case "speedbomb": {"life_inv_speedbomb"};
 			case "cigarette": {"life_inv_cigarette"};
-			case "RoadConeStripB": {"life_inv_RoadConeStripB"};
-			case "RoadConeB": {"life_inv_RoadConeB"};
-			case "RoadConeStrip": {"life_inv_RoadConeStrip"};
-			case "RoadCone": {"life_inv_RoadCone"};
-			case "RoadBlockWood": {"life_inv_RoadBlockWood"};
-			case "RoadBlockConc": {"life_inv_RoadBlockConc"};
-			case "RoadBlockRebel": {"life_inv_RoadBlockRebel"};
-			case "BarGate": {"life_inv_BarGate"};
-			case "zoobeer": {"life_inv_zoobeer"}; // Duff Beer
-			case "Rax's Rum": {"life_inv_raxsrum"};
 		};
 	};
 	
@@ -113,10 +113,12 @@ switch (_mode) do
 			case "life_inv_marijuana": {"marijuana"};
 			case "life_inv_apple": {"apple"};
 			case "life_inv_water": {"water"};
+			case "life_inv_burgers": {"burgers"};
 			case "life_inv_rabbit": {"rabbit"};
 			case "life_inv_salema": {"salema"};
 			case "life_inv_ornate": {"ornate"};
 			case "life_inv_mackerel": {"mackerel"};
+			case "life_inv_zipties": {"zipties"};
 			case "life_inv_tuna": {"tuna"};
 			case "life_inv_mullet": {"mullet"};
 			case "life_inv_catshark": {"catshark"};
@@ -141,6 +143,8 @@ switch (_mode) do
 			case "life_inv_tbacon": {"tbacon"};
 			case "life_inv_peach": {"peach"};
 			case "life_inv_diamond": {"diamond"};
+			case "life_inv_wine": {"wine"};
+			case "life_inv_beer": {"beer"};
 			case "life_inv_diamondr": {"diamondc"};
 			case "life_inv_saltr": {"salt_r"};
 			case "life_inv_coke": {"cocaine"};
@@ -169,24 +173,12 @@ switch (_mode) do
 			case "life_inv_beanseeds": {"bean seed"};
 			case "life_inv_cottonseeds": {"cotton seed"};
 			case "life_inv_oliveseeds": {"olive seed"};
+			case "life_inv_jack": {"jack"};
 			case "life_inv_opiumseeds": {"opium seed"};
 			case "life_inv_cannabisseeds": {"cannabis seed"};
 			case "life_inv_pumpkinseeds": {"pumpkin seed"};
-			case "life_inv_rawgoatmeat": {"raw goat meat"};
-			case "life_inv_rawchicken": {"raw chicken"};
-			case "life_inv_rawsheepmeat": {"raw sheep meat"};
-			case "life_inv_rawrabbit": {"raw rabbit"};
-			case "life_inv_zoobeer": {"zoobeer"};
-			case "life_inv_RoadConeStripB": {"RoadConeStripB"};
-			case "life_inv_RoadConeB": {"RoadConeB"};
-			case "life_inv_RoadConeStrip": {"RoadConeStrip"};
-			case "life_inv_RoadCone": {"RoadCone"};
-			case "life_inv_RoadBlockWood": {"RoadBlockWood"};
-			case "life_inv_RoadBlockConc": {"RoadBlockConc"};
-			case "life_inv_RoadBlockRebel": {"RoadBlockRebel"};
-			case "life_inv_BarGate": {"BarGate"};
-			case "life_inv_cigarette": {"cigarette"};
-			case "life_inv_raxsrum": {"Rax's Rum"};
+			case "life_inv_speedbomb": {"speedbomb"};
+			case "life_inv_cigarette": {"cigarette"};			
 		};
 	};
 };
